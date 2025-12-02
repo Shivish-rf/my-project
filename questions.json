@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Which language runs in a web browser?",
+    "options": ["Python", "JavaScript", "C++", "Java"],
+    "answer": "JavaScript"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": ["HyperText Markup Language", "Hyper Transfer Markup Language", "Home Tool Markup Language", "Hyperlink Text Madeup Language"],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "question": "Which is used to style web pages?",
+    "options": ["HTML", "CSS", "Python", "PHP"],
+    "answer": "CSS"
+  }
+]

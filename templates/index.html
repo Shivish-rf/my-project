@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Quiz App</h1>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+<script>
+    function startQuiz() {
+        let username = document.getElementById("username").value;
+        if (username.trim() === "") {
+            alert("Please enter your name");
+            return;
+        }
+        localStorage.setItem("username", username);
+        window.location.href = "/quiz";
+    }
+</script>
+</body>
+</html>
